@@ -1,7 +1,10 @@
 .logoplay{
     width:166.81pt;
     height:88.22pt;
-    margin-left: 90px;
+    /* margin-left: 90px; */
+    margin: 0;
+    position: relative;
+    left: 100pt;
 }
 .profile{
     width:36.47pt;
@@ -27,6 +30,62 @@
 
 .navbar{
     display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
+.pic{
+    width: 216.73pt;
+}
+.pic img{width: 100%;}
+
+@media screen and (max-width:768px) {
+    .logoplay{
+        height: 62.62pt;
+        width: 118pt;
+        margin: 0;
+        position: relative;
+        left: 62pt;
+    }
+    .sections{
+        display: none;
+    }
+    button,a{
+        font-size: 13pt;
+    }
+    .profile,.cart{
+        width: 32.63px;
+        height: 32.63px;
+    }
+    .pic{
+        height: 246pt;
+        width: 116.92pt;
+    }
   
+}
+@media screen and (max-width:414px) {
+    .logoplay{
+        height: 46pt;
+        width: 86pt;
+        margin: 0;
+        position: relative;
+        left: 34pt;
+    }
+    .sections{
+        display: none;
+    }
+    button,a{
+        font-size: 11pt;
+    }
+    
+    .profile,.cart{
+        width: 25.68px;
+        height: 25.68px;
+    }
+    .pic{
+        height: 114.24pt;
+        width: 54.3pt;
+    }
+  
+}
