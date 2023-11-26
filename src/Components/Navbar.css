@@ -1,0 +1,32 @@
+.logoplay{
+    width:166.81pt;
+    height:88.22pt;
+    margin-left: 90px;
+}
+.profile{
+    width:36.47pt;
+    height:36.47pt;
+}
+.cart{
+    width:33.67pt;
+    height:30.09pt;
+}
+
+.nav-links{
+    display: flex;
+   flex-direction: row;
+   text-wrap: nowrap;
+   gap: 49px;
+   margin-left:10%;
+   
+}
+.nav-links a{
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+}
+
+  
